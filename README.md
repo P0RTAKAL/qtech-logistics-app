@@ -10,32 +10,32 @@ The application demonstrates shipment tracking, route visualization, fleet monit
 
 ### Shipment Tracking
 
-* Track shipments between pickup and delivery locations
-* Live truck movement simulation
-* Shipment progress tracking
-* ETA calculation
-* Distance information
+- Track shipments between pickup and delivery locations
+- Live truck movement simulation
+- Shipment progress tracking
+- ETA calculation
+- Distance information
 
 ### Route Visualization
 
-* Real road routes using OSRM Routing API
-* Interactive map powered by React Native Maps
-* Pickup, delivery, and truck markers
-* Automatic route fitting and zooming
+- Real road routes using OSRM Routing API
+- Interactive map powered by React Native Maps
+- Pickup, delivery, and truck markers
+- Automatic route fitting and zooming
 
 ### Fleet Management
 
-* Multiple active shipments
-* Shipment switching
-* Independent tracking state per shipment
-* Fleet overview dashboard
+- Multiple active shipments
+- Shipment switching
+- Independent tracking state per shipment
+- Fleet overview dashboard
 
 ### Tracking Simulation
 
-* Periodic shipment updates
-* Route-based truck movement
-* Progress percentage updates
-* Shipment status lifecycle
+- Periodic shipment updates
+- Route-based truck movement
+- Progress percentage updates
+- Shipment status lifecycle
 
 ---
 
@@ -57,10 +57,10 @@ Route generation is handled through the public OSRM Routing API.
 
 Benefits:
 
-* No API key required
-* Real road geometry
-* Distance and duration calculations
-* Lightweight integration
+- No API key required
+- Real road geometry
+- Distance and duration calculations
+- Lightweight integration
 
 ### Tracking Service
 
@@ -68,9 +68,9 @@ Since no backend service was provided, shipment tracking is simulated through a 
 
 The architecture was intentionally designed to allow future integration with:
 
-* REST APIs (Polling)
-* WebSockets
-* Server-Sent Events (SSE)
+- REST APIs (Polling)
+- WebSockets
+- Server-Sent Events (SSE)
 
 without major UI changes.
 
@@ -80,8 +80,8 @@ The application uses React state because the project scope is limited.
 
 For larger-scale implementations, state management solutions such as:
 
-* Redux Toolkit
-* Zustand
+- Redux Toolkit
+- Zustand
 
 could be introduced.
 
@@ -141,27 +141,41 @@ a
 
 ## Future Improvements
 
-* Backend integration
-* WebSocket-based tracking
-* Driver authentication
-* Push notifications
-* Route recalculation
-* Fleet statistics dashboard
-* Offline support
+- Backend integration
+- WebSocket-based tracking
+- Driver authentication
+- Push notifications
+- Route recalculation
+- Fleet statistics dashboard
+- Offline support
 
 ---
 
 ## Tech Stack
 
-* React Native
-* Expo
-* TypeScript
-* React Native Maps
-* Expo Vector Icons
-* OSRM Routing API
+- React Native
+- Expo
+- TypeScript
+- React Native Maps
+- Expo Vector Icons
+- OSRM Routing API
+
+---
+
+## Screenshots
+
+<img src="./docs/images/ss1.png" width="320" />
+<img src="./docs/images/ss2.png" width="320" />
+<img src="./docs/images/ss3.png" width="320" />
+<img src="./docs/images/ss4.png" width="320" />
+<img src="./docs/images/ss5.png" width="320" />
+<img src="./docs/images/ss6.png" width="320" />
 
 ---
 
 ## Author
 
 Developed as a React Native technical assessment project for QTech.
+
+Erinç GÜNGÖR
+Mobile App Developer
