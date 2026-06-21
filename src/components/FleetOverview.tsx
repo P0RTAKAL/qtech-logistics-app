@@ -27,7 +27,7 @@ export function FleetOverview({
 }: Props) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Active Shipments</Text>
+      <Text style={styles.title}>Aktif Sevkiyatlar</Text>
 
       <View style={styles.row}>
         {shipments.map((shipment, index) => {
