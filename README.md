@@ -62,6 +62,8 @@ Benefits:
 - Distance and duration calculations
 - Lightweight integration
 
+If the routing service is unavailable, the application falls back to a direct line between the pickup and delivery locations, allowing the tracking flow to remain functional.
+
 ### Tracking Service
 
 Since no backend service was provided, shipment tracking is simulated through a dedicated tracking service.
@@ -110,6 +112,14 @@ src
 └── utils
     └── formatDuration.ts
 ```
+
+---
+
+## Requirements
+
+- Node.js 20+
+- npm
+- Expo Go or an iOS/Android simulator
 
 ---
 
